@@ -5,6 +5,8 @@ Get cryptocurrencies in thousand of retail stores!
 [Tikebit™](https://www.tikebit.com) is a easy and fast way to get cryptocurrencies with cash in thousand of retail stores around the world. Without banks, credit cards, in seconds.
 Easy, fast, secure, private.
 
+You can check [Tikebit™ API Docs](http://api-docs.tikebit.com) for more information.
+
 ## Install
 
 ```sh
@@ -38,7 +40,6 @@ tikebit.createVoucher({
 ```
 
 You can see *examples* folder to see more details of each example.
-You can check [Tikebit™ API Docs](http://api-docs.tikebit.com) for more information.
 
 ## Supported methods
 
