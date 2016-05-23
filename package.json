@@ -1,0 +1,64 @@
+{
+  "name": "tikebit",
+  "description": "Get cryptocurrencies in thousand of retail stores! Tikebit Official Node SDK for API REST.",
+  "version": "0.0.1",
+  "author": "CodersBrothers",
+  "homepage": "https://github.com/Tikebit/nodejs-sdk-api",
+  "bugs": {
+    "url": "https://github.com/Tikebit/nodejs-sdk-api/issues"
+  },
+  "keywords": [
+    "payment",
+    "cash",
+    "voucher",
+    "ticket",
+    "pay",
+    "tikebit",
+    "criptocurrency",
+    "criptocurrencies",
+    "bitcoin",
+    "ethereum",
+    "siacoin",
+    "storj",
+    "safecoin",
+    "litecoin",
+    "dogecoin",
+    "maidsafe",
+    "augur",
+    "dash",
+    "factom",
+    "voxels",
+    "qora",
+    "sync",
+    "omni",
+    "counterparty",
+    "monero",
+    "nubits",
+    "namecoin",
+    "peercoin",
+    "crypti",
+    "lisk",
+    "gems",
+    "viacoin",
+    "ripple",
+    "dnotes",
+    "bitshares",
+    "digibyte",
+    "horizon",
+    "diem",
+    "yaccoin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tikebit/nodejs-sdk-api.git"
+  },
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+{
+  "apiHost": "api.tikebit.com",
+  "apiPath": "v1/",
+  "SSL": true,
+  "ownSSL": false
+}
