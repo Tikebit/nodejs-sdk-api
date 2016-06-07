@@ -1,5 +1,5 @@
 {
-  "apiHost": "api-sandbox.tikebit.com",
+  "apiHost": "sandbox-api.tikebit.com",
   "apiPath": "v1/",
   "SSL": true,
   "ownSSL": true
