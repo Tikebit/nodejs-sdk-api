@@ -1,7 +1,7 @@
 {
   "name": "tikebit",
   "description": "Get cryptocurrencies in thousand of retail stores! Tikebit Official NodeJS SDK for API REST.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "CodersBrothers",
   "homepage": "https://github.com/Tikebit/nodejs-sdk-api",
   "bugs": {
