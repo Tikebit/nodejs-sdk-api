@@ -14,7 +14,7 @@ $ npm i --save tikebit
 ```
 
 ## Version
-1.1.1
+1.2.0
 
 ## Usage
 
@@ -29,7 +29,8 @@ var tikebit = new TikebitReseller(USERNAME, PASSWORD, SANDBOX);
 tikebit.createVoucher({
         amount: 1000,
         currency_iso_code: 'EUR',
-        description: 'Testing Tikebit for create a voucher'
+        description: 'Testing Tikebit for create a voucher',
+        nonce: 'uniqueString123'
     })
     .then(function(response){
         console.log(response);

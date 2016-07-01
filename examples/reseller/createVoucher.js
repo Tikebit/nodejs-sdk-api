@@ -7,7 +7,8 @@ var tikebitReseller = new TikebitReseller(USERNAME, PASSWORD, SANDBOX);
 tikebitReseller.createVoucher({
         amount: 1000,
         currency_iso_code: 'EUR',
-        description: 'Testing Tikebit for create a voucher'
+        description: 'Testing Tikebit for create a voucher',
+        nonce: 'uniqueString123'
     })
     .then(function(response){
         console.log(response);
