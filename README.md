@@ -14,7 +14,7 @@ $ npm i --save tikebit
 ```
 
 ## Version
-1.2.0
+1.3.0
 
 ## Usage
 
@@ -28,9 +28,7 @@ var tikebit = new TikebitReseller(USERNAME, PASSWORD, SANDBOX);
 
 tikebit.createVoucher({
         amount: 1000,
-        currency_iso_code: 'EUR',
-        description: 'Testing Tikebit for create a voucher',
-        nonce: 'uniqueString123'
+        currency_iso_code: 'EUR'
     })
     .then(function(response){
         console.log(response);
@@ -46,10 +44,12 @@ You can see *examples* folder to see more details of each example.
 
 **Reseller**
 - Create Voucher -> tikebitReseller.createVoucher
+- Activate Voucher -> tikebitReseller.activateVoucher
 - Cancel Voucher -> tikebitReseller.cancelVoucher
 
 **Merchant**
 - Create Payment -> tikebitMerchant.createPayment
+- Activate Payment -> tikebitMerchant.activatePayment
 
 ## TODO
 - Testing

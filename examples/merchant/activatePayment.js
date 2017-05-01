@@ -4,14 +4,10 @@ var USERNAME = '';
 var PASSWORD = '';
 var SANDBOX = false;
 
+var PAYMENT_ID = '';
+
 var tikebitMerchant = new TikebitMerchant(USERNAME, PASSWORD, SANDBOX);
-tikebitMerchant.createPayment({
-        voucher_code: '',
-        amount: 100,
-        currency_iso_code: 'EUR',
-        reference: 'uniqueNonce123',
-        description: 'Cryptocurrencies to the moon! 1€'
-    })
+tikebitMerchant.activatePayment(PAYMENT_ID)
     .then(function(response){
         console.log(response);
     })
