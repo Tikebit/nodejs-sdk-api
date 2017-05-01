@@ -53,8 +53,7 @@
     "steem",
     "ardor",
     "belacoin",
-    "pascalcoin",
-
+    "pascalcoin"
   ],
   "repository": {
     "type": "git",
